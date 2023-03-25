@@ -75,7 +75,7 @@ export default function APL5GalleryContent() {
 
     return(
         <div className="gallery-wrapper">
-            <Gallery images={images} />
+            <Gallery tagStyle={{alignItems:'center', justifyContent:'center'}} images={images} />
         </div>
     )
 }
